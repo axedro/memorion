@@ -7,20 +7,21 @@ var e_Fail = "res/Sounds/fail";
 var f_Comic30 = "res/Fonts/Comic30_Black.fnt";
 */
 
-var s_cartaAtras = "res/Images/cartaAtras.png";
-var s_cartaTaco = "res/Images/cartasTaco.png";
-var s_jugarBtn = "res/Images/jugarBtn.png";
-var s_instBtn = "res/Images/instruccionesBtn.png";
+var s_jugarBtn = "jugarBtn.png";
+var s_instBtn = "instruccionesBtn.png";
 var e_Click = "res/Sounds/click";
+var e_Fail = "res/Sounds/fail";
+var e_OK = "res/Sounds/acierto";
+var e_OKFinal = "res/Sounds/effect_game_pass";
+var sp_Memorion = "res/Images/-html5/Memorion_cartas.plist";
+var ss_Memorion = "res/Images/-html5/Memorion_cartas.png";
 
 
 var g_resources = [
     //image
-    {src: s_cartaAtras},
-    {src: s_cartaTaco},
     {src: "res/Images/dialogoInicio.png"},
-    {src: s_jugarBtn},
-    {src: s_instBtn},
+    {src: sp_Memorion},
+    {src: ss_Memorion},
 
 
 
@@ -35,7 +36,18 @@ var g_resources = [
 
     //effect
     {type: 'sound', src: 'res/Sounds/click.mp3'},
-    {type: 'sound', src: 'res/Sounds/click.ogg'}
+    {type: 'sound', src: 'res/Sounds/click.ogg'},
+    {type: 'sound', src: 'res/Sounds/click.wav'},
+    {type: 'sound', src: 'res/Sounds/fail.mp3'},
+    {type: 'sound', src: 'res/Sounds/fail.ogg'},
+    {type: 'sound', src: 'res/Sounds/fail.wav'},
+    {type: 'sound', src: 'res/Sounds/effect_game_pass.mp3'},
+    {type: 'sound', src: 'res/Sounds/effect_game_pass.ogg'},
+    {type: 'sound', src: 'res/Sounds/effect_game_pass.wav'},
+    {type: 'sound', src: 'res/Sounds/acierto.mp3'},
+    {type: 'sound', src: 'res/Sounds/acierto.ogg'},
+    {type: 'sound', src: 'res/Sounds/acierto.wav'}
+
 
 ];
 /*

@@ -9,6 +9,9 @@ var Inicio_Layer = cc.Layer.extend({
         // 1. super init first
         this._super();
 
+        var cache = cc.SpriteFrameCache.getInstance();
+        cache.addSpriteFrames(sp_Memorion, ss_Memorion);
+
         //click.play();
 
         /////////////////////////////
@@ -30,14 +33,14 @@ var Inicio_Layer = cc.Layer.extend({
             var indexY=Math.floor(i/4);
             var x=93+indexX*100;
             var y=104+indexY*140;
-            cartasF[i] = cc.Sprite.create(s_cartaAtras);
+            cartasF[i] = cc.Sprite.createWithSpriteFrameName("cartaAtras.png");
             cartasF[i].setAnchorPoint(cc.p(0.5, 0.5));
             cartasF[i].setPosition(cc.p(x,y));
             this.addChild(cartasF[i]);
 
         };
 
-        var taco = cc.Sprite.create(s_cartaTaco);
+        var taco = cc.Sprite.createWithSpriteFrameName("cartasTaco.png");
         taco.setAnchorPoint(cc.p(0, 0));
         taco.setPosition(cc.p(455,105));
         this.addChild(taco,0);
@@ -47,7 +50,7 @@ var Inicio_Layer = cc.Layer.extend({
         dialogoInicio.setPosition(cc.p(285,175));
         this.addChild(dialogoInicio,1);
 
-        var jB = cc.Scale9Sprite.create(s_jugarBtn);
+        var jB = cc.Scale9Sprite.createWithSpriteFrameName(s_jugarBtn);
         this.jugar = cc.ControlButton.create();
         this.jugar.setPosition(cc.p(285,158));
         this.jugar.setPreferredSize(cc.size(117,42));
@@ -56,7 +59,7 @@ var Inicio_Layer = cc.Layer.extend({
         this.jugar._tag=1;
         this.addChild(this.jugar,2);
 
-        var iB = cc.Scale9Sprite.create(s_instBtn);
+        var iB = cc.Scale9Sprite.createWithSpriteFrameName(s_instBtn);
         this.inst = cc.ControlButton.create();
         this.inst.setPosition(cc.p(285,95));
         this.inst.setPreferredSize(cc.size(209,42));
