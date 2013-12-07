@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <project name="Javascript compress project" basedir="." default="compile">
 
-    <copydir src="${basedir}/res" dest="${basedir}/build/res"></copydir>
 
     <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
              classpath="${basedir}/../../compiler/compiler.jar"/>

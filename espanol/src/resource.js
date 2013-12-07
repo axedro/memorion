@@ -9,6 +9,9 @@ var f_Comic30 = "res/Fonts/Comic30_Black.fnt";
 
 var s_jugarBtn = "jugarBtn.png";
 var s_instBtn = "instruccionesBtn.png";
+var s_fondoNivel = "res/Images/dialogoNivel.png"
+var s_facilBtn = "facilBtn.png";
+var s_dificilBtn = "dificilBtn.png";
 var e_Click = "res/Sounds/click";
 var e_Fail = "res/Sounds/fail";
 var e_OK = "res/Sounds/acierto";
@@ -20,6 +23,7 @@ var ss_Memorion = "res/Images/-html5/Memorion_cartas.png";
 var g_resources = [
     //image
     {src: "res/Images/dialogoInicio.png"},
+    {src: s_fondoNivel},
     {src: sp_Memorion},
     {src: ss_Memorion},
 
@@ -35,18 +39,18 @@ var g_resources = [
     //bgm
 
     //effect
-    {type: 'sound', src: 'res/Sounds/click.mp3'},
-    {type: 'sound', src: 'res/Sounds/click.ogg'},
-    {type: 'sound', src: 'res/Sounds/click.wav'},
-    {type: 'sound', src: 'res/Sounds/fail.mp3'},
-    {type: 'sound', src: 'res/Sounds/fail.ogg'},
-    {type: 'sound', src: 'res/Sounds/fail.wav'},
-    {type: 'sound', src: 'res/Sounds/effect_game_pass.mp3'},
-    {type: 'sound', src: 'res/Sounds/effect_game_pass.ogg'},
-    {type: 'sound', src: 'res/Sounds/effect_game_pass.wav'},
-    {type: 'sound', src: 'res/Sounds/acierto.mp3'},
-    {type: 'sound', src: 'res/Sounds/acierto.ogg'},
-    {type: 'sound', src: 'res/Sounds/acierto.wav'}
+    {src: 'res/Sounds/click.mp3'},
+    {src: 'res/Sounds/click.ogg'},
+    {src: 'res/Sounds/click.wav'},
+    {src: 'res/Sounds/fail.mp3'},
+    {src: 'res/Sounds/fail.ogg'},
+    {src: 'res/Sounds/fail.wav'},
+    {src: 'res/Sounds/effect_game_pass.mp3'},
+    {src: 'res/Sounds/effect_game_pass.ogg'},
+    {src: 'res/Sounds/effect_game_pass.wav'},
+    {src: 'res/Sounds/acierto.mp3'},
+    {src: 'res/Sounds/acierto.ogg'},
+    {src: 'res/Sounds/acierto.wav'}
 
 
 ];

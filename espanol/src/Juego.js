@@ -110,12 +110,40 @@ juegoLayer.prototype.girarAbrir = function(e) {
                         }, this),cc.RotateBy.create(.1,0,90),
                         cc.CallFunc.create(function(node) {
                             if (sharedJuegoScene.acertados == sharedJuegoScene.numCartas/2) {
-                                cc.log("Todas acertadas......");
+                                //cc.log("Todas acertadas......");
                                 gAudioEngine.playEffect(e_OKFinal);
+                                sharedJuegoScene.scheduleOnce(sharedJuegoScene.fin,1.0);
                             }
                         }, this));
     e._parent._children[1].runAction(rot);
 
+}
+
+juegoLayer.prototype.fin = function() {
+
+    //var action = cc.Sequence.create(cc.FadeOut.create(2.0),cc.CallFunc.create(function(node) {
+    //                       node._parent.removeChild(node);
+    //                    }, this));
+    var nivel = cc.Sequence.create(cc.DelayTime.create(0.15*(this.numCartas-1)),
+        cc.CallFunc.create(function(node) {
+                sharedJuegoScene.fase0();
+            },this));
+    for (var i = 0; i < this.numCartas; i++) {
+        var action = cc.Sequence.create(cc.DelayTime.create(0.15*i),
+            cc.MoveTo.create(0.15,cc.p(498,176)));
+        //cc.log(1/this.nivel);
+        var action2 = cc.Sequence.create(cc.DelayTime.create(0.15*i),
+            cc.ScaleTo.create(0.15,1),
+            cc.CallFunc.create(function(node) {
+                node._parent.removeChild(node)
+            },this));
+        sharedJuegoScene.cartas[i].runAction(action);
+        sharedJuegoScene.cartas[i].runAction(action2);
+        if (i==(this.numCartas-1)) {
+            sharedJuegoScene.cartas[i].runAction(nivel);
+        }
+
+    } 
 }
 
 
@@ -168,7 +196,7 @@ juegoLayer.prototype.barajar = function()
     this.elegidas = new Array();
     for (var i = 0; i <this.numCartas/2; i++) {
         do {
-            var a = Math.floor(Math.random()*10);
+            var a = Math.floor(Math.random()*14);
             var igual=false;
             for (var j=0; j<i*2; j++) {
                 if (this.elegidas[j]==a) igual=true;
@@ -191,16 +219,76 @@ juegoLayer.prototype.barajar = function()
 
 juegoLayer.prototype.fase0 = function()
 {
-    this.nivel = FACIL;
+    cc.log("fase0");
+    sharedJuegoScene.niveles();
+    
+
+    
+}
+juegoLayer.prototype.fase1 = function() {
+    //this.nivel = FACIL;
     if (this.nivel == FACIL) {
         this.numCartas=8;
     } else {
         this.numCartas=18;
     };
     this.barajar();
-
-    
 }
+
+juegoLayer.prototype.niveles = function() {
+
+    sharedJuegoScene.fondo = cc.Layer.create();
+    sharedJuegoScene.fondo.setAnchorPoint(cc.p(0.5, 0.5));
+    sharedJuegoScene.fondo.setPosition(cc.p(570/2,350/2));
+
+
+    var fondoNivel=cc.Sprite.create(s_fondoNivel);
+    fondoNivel.setAnchorPoint(cc.p(0.5, 0.5));
+
+    var jF = cc.Scale9Sprite.createWithSpriteFrameName(s_facilBtn);
+    var facilB = cc.ControlButton.create();
+    facilB.setPosition(cc.p(375/2,258*0.65));
+    facilB.setPreferredSize(cc.size(117,42));
+    facilB.setBackgroundSpriteForState(jF,1);
+    facilB.addTargetWithActionForControlEvents(this, this.onClick, cc.CONTROL_EVENT_TOUCH_UP_INSIDE);
+    facilB._tag=1;
+    facilB.setOpacity(0);
+    fondoNivel.addChild(facilB,2);
+
+    var jD = cc.Scale9Sprite.createWithSpriteFrameName(s_dificilBtn);
+    var dificilB = cc.ControlButton.create();
+    dificilB.setPosition(cc.p(375/2,258*0.35));
+    dificilB.setPreferredSize(cc.size(117,42));
+    dificilB.setBackgroundSpriteForState(jD,1);
+    dificilB.addTargetWithActionForControlEvents(this, this.onClick, cc.CONTROL_EVENT_TOUCH_UP_INSIDE);
+    dificilB._tag=2;
+    dificilB.setOpacity(0);
+    fondoNivel.addChild(dificilB,2);
+
+    sharedJuegoScene.fondo.addChild(fondoNivel,0);
+    sharedJuegoScene.addChild(sharedJuegoScene.fondo,100);
+    fondoNivel.runAction(cc.FadeIn.create(1.0));
+    facilB.runAction(cc.FadeIn.create(1.0));
+    dificilB.runAction(cc.FadeIn.create(1.0));
+}
+
+juegoLayer.prototype.onClick = function(e) {
+    cc.log(e._tag);
+    if (e._tag==1) {
+        sharedJuegoScene.nivel=FACIL;
+    } else {
+        sharedJuegoScene.nivel=DIFICIL;
+    }
+    e._parent._children[0].runAction(cc.FadeOut.create(0.6));
+    e._parent._children[1].runAction(cc.FadeOut.create(0.6));
+    var action = cc.Sequence.create(cc.FadeOut.create(0.6),cc.CallFunc.create(function(node) {
+                            sharedJuegoScene.fondo._parent.removeChild(sharedJuegoScene.fondo)
+                            sharedJuegoScene.fase1();
+                        }, this));
+    e._parent.runAction(action);
+
+}
+
 
 var Juego = cc.Scene.extend({
     onEnter:function () {
