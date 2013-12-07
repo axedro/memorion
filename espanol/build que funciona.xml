@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="Javascript compress project" basedir="." default="compile">
+
+    <copydir src="${basedir}/res" dest="${basedir}/build/res"></copydir>
+
+    <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
+             classpath="${basedir}/../../compiler/compiler.jar"/>
+
+    <target name="compile">
+        <jscomp compilationLevel="simple" warning="quiet"
+                debug="false" output="${basedir}/build/Memorion.min.js">
+            <sources dir="$base{dir}/../../../../lib">
+                <file name="Cocos2d-html5-v2.2.1.min.js" />
+            </sources>
+            <sources dir="${basedir}">                
+                <file name="src/myApp.js"/>
+                <file name="src/CCCustomLoader.js"/>
+                <file name="src/Instrucciones.js"/>
+                <file name="src/Juego.js"/>
+                <file name="src/resource.js"/>
+                <file name="main.js"/>
+            </sources>
+        </jscomp>
+     </target>
+</project>

@@ -9,10 +9,10 @@
     <target name="compile">
         <jscomp compilationLevel="simple" warning="quiet"
                 debug="false" output="${basedir}/build/Memorion.min.js">
-            <externs dir="${basedir}/../../../../cocos2d-html5/cocos2d">
+            <externs dir="${basedir}/../../../../../cocos2d">
                 <file name="cocos2d_externs.js"/>
             </externs>
-            <sources dir="${basedir}/../../../../cocos2d-html5/cocos2d">
+            <sources dir="${basedir}/../cocos2d">
                 <file name="platform/CCClass.js"/>
                 <file name="cocoa/CCGeometry.js"/>
                 <file name="platform/Sys.js"/>
@@ -127,11 +127,11 @@
                 <file name="tileMap_parallax_nodes/CCTMXLayer.js"/>
                 <file name="tileMap_parallax_nodes/CCParallaxNode.js"/>
             </sources>
-            <sources dir="${basedir}/../../../../cocos2d-html5/CocosDenshion">
+            <sources dir="${basedir}/../CocosDenshion">
                 <file name="SimpleAudioEngine.js"/>
             </sources>
             <!-- extensions -->
-            <sources dir="${basedir}/../../../../cocos2d-html5/extensions">
+            <sources dir="${basedir}/../extensions">
                 <file name="CCBReader/CCBReaderUtil.js"/>
                 <file name="CCBReader/CCBValue.js"/>
                 <file name="CCBReader/CCBKeyframe.js"/>
