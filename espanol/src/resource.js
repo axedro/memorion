@@ -23,6 +23,7 @@ var ss_Memorion = "res/Images/-html5/Memorion_cartas.png";
 var g_resources = [
     //image
     {src: "res/Images/dialogoInicio.png"},
+    {src: "res/Images/fondoInstrucciones.png"},
     {src: s_fondoNivel},
     {src: sp_Memorion},
     {src: ss_Memorion},

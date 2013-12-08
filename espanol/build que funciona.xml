@@ -9,7 +9,7 @@
     <target name="compile">
         <jscomp compilationLevel="simple" warning="quiet"
                 debug="false" output="${basedir}/build/Memorion.min.js">
-            <sources dir="$base{dir}/../../../../lib">
+            <sources dir="${basedir}/../../../../lib">
                 <file name="Cocos2d-html5-v2.2.1.min.js" />
             </sources>
             <sources dir="${basedir}">                

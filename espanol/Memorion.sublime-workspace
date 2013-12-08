@@ -376,26 +376,45 @@
 	"buffers":
 	[
 		{
-			"file": "build-legacy/boot-html5.js",
-			"settings":
-			{
-				"buffer_size": 1416,
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "<?xml version=\"1.0\"?>\n<project name=\"Javascript compress project\" basedir=\".\" default=\"compile\">\n\n    <taskdef name=\"jscomp\" classname=\"com.google.javascript.jscomp.ant.CompileTask\"\n             classpath=\"${basedir}/../../../compiler/compiler.jar\"/>\n\n    <target name=\"compile\">\n        <jscomp compilationLevel=\"simple\" warning=\"quiet\"\n                debug=\"false\" output=\"${basedir}/Memorion.min.js\">\n            <sources dir=\"${basedir}/\">\n                <file name=\"Cocos2d-html5.min.js\" />\n            </sources>\n            <sources dir=\"${basedir}\">\n                <file name=\"src/myApp.js\"/>\n                <file name=\"src/CCCustomLoader.js\"/>\n                <file name=\"src/Instrucciones.js\"/>\n                <file name=\"src/Juego.js\"/>\n                <file name=\"src/resource.js\"/>\n                <file name=\"CCGLProgram.js\"/> \n                <file name=\"main.js\"/>\n                <file name=\"CCLoader.js\"/>  \n\n                \n            </sources>\n        </jscomp>\n     </target>\n</project>",
 			"file": "build-legacy/build.xml",
+			"file_size": 1044,
+			"file_write_time": 130309955000000000,
 			"settings":
 			{
-				"buffer_size": 1044,
+				"buffer_size": 1015,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "build-legacy/src/resource.js",
+			"file": "src/Instrucciones.js",
 			"settings":
 			{
-				"buffer_size": 2105,
+				"buffer_size": 2018,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Juego.js",
+			"settings":
+			{
+				"buffer_size": 10413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resource.js",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/myApp.js",
+			"settings":
+			{
+				"buffer_size": 3086,
 				"line_ending": "Windows"
 			}
 		}
@@ -427,13 +446,16 @@
 	},
 	"file_history":
 	[
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build-legacy/boot-html5.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build que funciona.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build de la Develop Branch.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build-legacy/src/resource.js",
 		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build-legacy/build.xml",
 		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/src/Juego.js",
 		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/src/resource.js",
 		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/src/myApp.js",
 		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build/cocos2d.js",
-		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build.xml",
-		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build que funciona.xml",
 		"/Users/alejandromedina/Desktop/cocos2d-html5/samples/tests/tests-boot-html5.js",
 		"/Users/alejandromedina/Desktop/cocos2d-html5/HelloHTML5World/cocos2d.js",
 		"/Users/alejandromedina/Downloads/stackmob-js-starter-v0/index.html",
@@ -586,53 +608,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "build-legacy/boot-html5.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								404,
-								404
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "build-legacy/build.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1044,
+						"buffer_size": 1015,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								914,
-								914
+								559,
+								559
 							]
 						],
 						"settings":
@@ -648,20 +641,78 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "build-legacy/src/resource.js",
+					"buffer": 1,
+					"file": "src/Instrucciones.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2105,
+						"buffer_size": 2018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								1364,
+								1364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 263.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Juego.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2393.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/resource.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								863,
+								863
 							]
 						],
 						"settings":
@@ -672,6 +723,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/myApp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1690,
+								631
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -747,7 +827,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 176.0,
+	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

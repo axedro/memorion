@@ -33,7 +33,7 @@
 		<key>c1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 274}, {85, 128}}</string>
+			<string>{{2, 934}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -50,7 +50,7 @@
 		<key>c10.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 670}, {85, 128}}</string>
+			<string>{{91, 794}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -67,7 +67,7 @@
 		<key>c11.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 926}, {85, 128}}</string>
+			<string>{{2, 538}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -84,7 +84,7 @@
 		<key>c12.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 934}, {85, 128}}</string>
+			<string>{{2, 142}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -101,7 +101,7 @@
 		<key>c13.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 1058}, {85, 128}}</string>
+			<string>{{2, 406}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -118,7 +118,7 @@
 		<key>c14.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 1066}, {85, 128}}</string>
+			<string>{{91, 266}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -135,7 +135,7 @@
 		<key>c2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 266}, {85, 128}}</string>
+			<string>{{91, 398}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -152,7 +152,7 @@
 		<key>c3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 142}, {85, 128}}</string>
+			<string>{{2, 802}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -186,7 +186,7 @@
 		<key>c5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 794}, {85, 128}}</string>
+			<string>{{99, 2}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -203,7 +203,7 @@
 		<key>c6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 398}, {85, 128}}</string>
+			<string>{{2, 670}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -220,7 +220,7 @@
 		<key>c7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 538}, {85, 128}}</string>
+			<string>{{2, 274}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -237,7 +237,7 @@
 		<key>c8.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 406}, {85, 128}}</string>
+			<string>{{2, 1066}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -254,7 +254,7 @@
 		<key>c9.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 530}, {85, 128}}</string>
+			<string>{{91, 926}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -271,7 +271,7 @@
 		<key>cartaAtras.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{99, 2}, {85, 128}}</string>
+			<string>{{91, 530}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -305,7 +305,7 @@
 		<key>dificilBtn.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 1283}, {117, 43}}</string>
+			<string>{{91, 1190}, {117, 43}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -322,7 +322,7 @@
 		<key>facilBtn.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 1190}, {117, 43}}</string>
+			<string>{{2, 1283}, {117, 43}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -373,7 +373,7 @@
 		<key>mundo.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 802}, {85, 128}}</string>
+			<string>{{91, 1058}, {85, 128}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -387,13 +387,30 @@
 			<key>tint</key>
 			<string>{{255, 255}, {255, 255}}</string>
 		</dict>
+		<key>volverInstrucciones.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{123, 1329}, {116, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {116, 42}}</string>
+			<key>sourceSize</key>
+			<string>{116, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
 	</dict>
 	<key>metadata</key>
 	<dict>
 		<key>format</key>
 		<integer>2</integer>
 		<key>size</key>
-		<string>{242, 1328}</string>
+		<string>{242, 1373}</string>
 		<key>textureFileName</key>
 		<string>Memorion_Cartas.png</string>
 	</dict>
