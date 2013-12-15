@@ -1,0 +1,835 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fas",
+				"fase0"
+			],
+			[
+				"C",
+				"CallFunc"
+			],
+			[
+				"Fa",
+				"FadeOut"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"F",
+				"CallFunc"
+			],
+			[
+				"Sq",
+				"Sequence"
+			],
+			[
+				"FAC",
+				"FACIL"
+			],
+			[
+				"FACIL",
+				"s_facilBtn"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"set",
+				"setOpacity"
+			],
+			[
+				"fon",
+				"fondoNivel"
+			],
+			[
+				"fod",
+				"fondoNivel"
+			],
+			[
+				"juego",
+				"juegoLayer"
+			],
+			[
+				"eff",
+				"effect_game_pass"
+			],
+			[
+				"g",
+				"gAudioEngine"
+			],
+			[
+				"cre",
+				"create"
+			],
+			[
+				"girar",
+				"girarCerrar"
+			],
+			[
+				"prim",
+				"primerNumCarta"
+			],
+			[
+				"ju",
+				"juegoLayer"
+			],
+			[
+				"pri",
+				"primeraCarta"
+			],
+			[
+				"ro",
+				"RotateTo"
+			],
+			[
+				"carta",
+				"cartas"
+			],
+			[
+				"ele",
+				"elegidas"
+			],
+			[
+				"crea",
+				"createWithSpriteFrameName"
+			],
+			[
+				"im",
+				"Images"
+			],
+			[
+				"s_",
+				"s_jugarBtn"
+			],
+			[
+				"dial",
+				"dialogoInicio"
+			],
+			[
+				"di",
+				"dialogoInicio"
+			],
+			[
+				"sc",
+				"s_cartaTaco"
+			],
+			[
+				"ad",
+				"addChild"
+			],
+			[
+				"fig",
+				"figuraSelected"
+			],
+			[
+				"col",
+				"colorear"
+			],
+			[
+				"color",
+				"colorSelected"
+			],
+			[
+				"fi",
+				"figuraSelected"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"colo",
+				"colorSelected"
+			],
+			[
+				"fruta",
+				"frutaGuess"
+			],
+			[
+				"share",
+				"sharedJuegoScene"
+			],
+			[
+				"setb",
+				"setVisible"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"Com",
+				"Comic15_Black"
+			],
+			[
+				"tab",
+				"tablaPrecios"
+			],
+			[
+				"ti",
+				"ticket"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"fr",
+				"frutaGuess"
+			],
+			[
+				"fru",
+				"frutas"
+			],
+			[
+				"cont",
+				"contarFrutas"
+			],
+			[
+				"peti",
+				"peticion"
+			],
+			[
+				"peso",
+				"pesoGuess"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"frt",
+				"frutaGuess"
+			],
+			[
+				"gu",
+				"frutaGuess"
+			],
+			[
+				"bal",
+				"balanzaFruta"
+			],
+			[
+				"balan",
+				"balanzaPesas"
+			],
+			[
+				"pese",
+				"pesoGuess"
+			],
+			[
+				"pe",
+				"pesoGuess"
+			],
+			[
+				"plat",
+				"platoDerecho"
+			],
+			[
+				"es",
+				"estadoNuevo"
+			],
+			[
+				"re",
+				"refrescarBalanza"
+			],
+			[
+				"est",
+				"estadoActual"
+			],
+			[
+				"pes",
+				"pesoGuess"
+			],
+			[
+				"po",
+				"pesoDer"
+			],
+			[
+				"pila",
+				"pilaIzquierda"
+			],
+			[
+				"img",
+				"img0"
+			],
+			[
+				"se",
+				"setString"
+			],
+			[
+				"Tra",
+				"TransicionFinal"
+			],
+			[
+				"get",
+				"getScore"
+			],
+			[
+				"tu",
+				"turnoId"
+			],
+			[
+				"rep",
+				"repetirVar"
+			],
+			[
+				"dif",
+				"difN"
+			],
+			[
+				"nota",
+				"notaSonar"
+			],
+			[
+				"not",
+				"notasId"
+			],
+			[
+				"pla",
+				"playEffect"
+			],
+			[
+				"lastRe",
+				"lastRelojN"
+			],
+			[
+				"l",
+				"lastRelojN"
+			],
+			[
+				"new",
+				"newReloj"
+			],
+			[
+				"S",
+				"StackMob"
+			],
+			[
+				"I",
+				"INI_NOMBRE_Y"
+			],
+			[
+				"INI",
+				"INI_NOMBRE_Y"
+			],
+			[
+				"bar",
+				"barcoPos"
+			],
+			[
+				"barco",
+				"barcoPos"
+			],
+			[
+				"s",
+				"sharedJuegoScene"
+			],
+			[
+				"gOb",
+				"gObjectController"
+			],
+			[
+				"dir",
+				"diry"
+			],
+			[
+				"gO",
+				"gObjectDesController"
+			],
+			[
+				"CD",
+				"CD_LEVEL_WIDTH"
+			],
+			[
+				"delta",
+				"deltay"
+			],
+			[
+				"co",
+				"controllerName"
+			],
+			[
+				"game",
+				"gameObjectController"
+			],
+			[
+				"lea",
+				"loadAsScene"
+			],
+			[
+				"pa",
+				"paused"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?xml version=\"1.0\"?>\n<project name=\"Javascript compress project\" basedir=\".\" default=\"compile\">\n\n    <taskdef name=\"jscomp\" classname=\"com.google.javascript.jscomp.ant.CompileTask\"\n             classpath=\"${basedir}/../../../compiler/compiler.jar\"/>\n\n    <target name=\"compile\">\n        <jscomp compilationLevel=\"simple\" warning=\"quiet\"\n                debug=\"false\" output=\"${basedir}/Memorion.min.js\">\n            <sources dir=\"${basedir}/\">\n                <file name=\"Cocos2d-html5.min.js\" />\n            </sources>\n            <sources dir=\"${basedir}\">\n                <file name=\"src/myApp.js\"/>\n                <file name=\"src/CCCustomLoader.js\"/>\n                <file name=\"src/Instrucciones.js\"/>\n                <file name=\"src/Juego.js\"/>\n                <file name=\"src/resource.js\"/>\n                <file name=\"CCGLProgram.js\"/> \n                <file name=\"main.js\"/>\n                <file name=\"CCLoader.js\"/>  \n\n                \n            </sources>\n        </jscomp>\n     </target>\n</project>",
+			"file": "build-legacy/build.xml",
+			"file_size": 1044,
+			"file_write_time": 130309955000000000,
+			"settings":
+			{
+				"buffer_size": 1015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Instrucciones.js",
+			"settings":
+			{
+				"buffer_size": 2018,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Juego.js",
+			"settings":
+			{
+				"buffer_size": 10413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resource.js",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/myApp.js",
+			"settings":
+			{
+				"buffer_size": 3086,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build-legacy/boot-html5.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build que funciona.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build de la Develop Branch.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build-legacy/src/resource.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build-legacy/build.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/src/Juego.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/src/resource.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/src/myApp.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build/cocos2d.js",
+		"/Users/alejandromedina/Desktop/cocos2d-html5/samples/tests/tests-boot-html5.js",
+		"/Users/alejandromedina/Desktop/cocos2d-html5/HelloHTML5World/cocos2d.js",
+		"/Users/alejandromedina/Downloads/stackmob-js-starter-v0/index.html",
+		"/Users/alejandromedina/Downloads/stackmob-js-starter-v0/app.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Published-HTML5/resources-html5.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/memorion/espanol/build copy.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/projects/pintamos/espanol/src/myApp.js",
+		"/Users/alejandromedina/Dropbox/Mia/Paginas web/acopia/espanol/html5/juegos/figformas/simon/CCLoader.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/HelloHTML5World/cocos2d.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/samples/tests/build.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/tools/jsdoc_toolkit/build.xml",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/tools/jsdoc_toolkit-2.4.0/jsdocTemplate.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Figuras y Formas/Pintamos/Juego Pintamos/ccPintamos/Resources/Inicio.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/template/cocos2d.js",
+		"/Users/alejandromedina/Desktop/Cocos2d-html5-v2.2.1/samples/tests/CocosDenshionTest/CocosDenshionTest.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Figuras y Formas/Pintamos/Juego Pintamos/ccPintamos/Published-HTML5/boot-html5.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Figuras y Formas/Pintamos/Juego Pintamos/ccPintamos/Resources/Juego_SIMON.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Figuras y Formas/Pintamos/Juego Pintamos/ccPintamos/Resources/Instrucciones.ccb",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Figuras y Formas/Pintamos/Juego Pintamos/ccPintamos/Resources/Images/-html5/Pintamos_Pintamos.plist",
+		"/Users/alejandromedina/Downloads/cocos2d-x-2.2/tools/project-creator/ios.json",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Resources/Ticket.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Resources/Juego.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Resources/Inicio.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Resources/Pesa.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Resources/Instrucciones.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Numeros/Balanza/Juego Balanza/ccBalanza/Resources/Caja.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Level.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Juego.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Juego.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Cuentos/espanol/Tierra/ccTierra/Resources/Cuento.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Varios/Laberintos/Juego Laberintos/ccLaberintos score/Published-HTML5/Puntuaciones.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/espanol/Varios/Laberintos/Juego Laberintos/ccLaberintos score/Published-HTML5/index.html",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Medusa.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Cangrejo.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Opciones.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Inicio.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/TransicionCangrejo.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Level.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Barco.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Ola.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Instrucciones.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Level7.ccb",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Ola.ccb",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/TransicionNivel.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Level9.ccb",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Cuentos/espanol/Peonza/Resources/Cuento.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Ranking.js",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Juego.ccb",
+		"/Users/alejandromedina/Desktop/CocosBuilder Files/Juegos/Varios/Laberintos/Juego Laberintos/ccLaberintos/Resources/Level1.ccb",
+		"/Users/alejandromedina/Desktop/heroku/nodejs tutorial/package.json",
+		"/Users/alejandromedina/Desktop/heroku/nodejs tutorial/Procfile",
+		"/Users/alejandromedina/Desktop/heroku/nodejs tutorial/web.js",
+		"/Users/alejandromedina/Downloads/oauth2-php/server/examples/pdo/lib/PDOOAuth2.inc",
+		"/Users/alejandromedina/Downloads/oauth2-php/server/examples/pdo/addclient.php",
+		"/Users/alejandromedina/Downloads/oauth-php/library/store/mysql/mysql.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"facilB",
+			"type: 'sound', ",
+			"type:'sound', ",
+			"tocado",
+			")) ",
+			"log",
+			"this.cartas[i]",
+			"fondo",
+			"Loading",
+			"ocos2d-html5-testcases-advanced.",
+			"replace",
+			"sprite",
+			"figuraSelected",
+			"console",
+			"onFig",
+			"sort",
+			"push",
+			"rand",
+			"console",
+			"console//",
+			"console",
+			"listado",
+			"this.button",
+			"sortNumber",
+			"tPrice",
+			"total",
+			"label",
+			"pFacil",
+			"ff",
+			"addChild",
+			"Ticket",
+			"push",
+			"balanzaFruta",
+			"console",
+			"string",
+			"frutas",
+			"Nivel",
+			"b[",
+			"this.this",
+			"tarima",
+			"k",
+			"size",
+			"visible",
+			"set",
+			"visible",
+			"console",
+			"turnoId",
+			"console",
+			"playEffect",
+			"for",
+			"require",
+			"refrescar",
+			"TransicionMedusa",
+			"TransicionFinal",
+			"TransicionNivel",
+			"le",
+			"Medusa",
+			"refrescar",
+			"tiempo",
+			"Opciones",
+			"reloj",
+			"actualReloj",
+			"oauth2.0"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "build-legacy/build.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Instrucciones.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1364,
+								1364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 263.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Juego.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2393.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/resource.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								863,
+								863
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/myApp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1690,
+								631
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "Memorion.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

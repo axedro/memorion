@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>SpriteHelper</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>c0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{99, 134}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 274}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 670}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 266}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 142}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 662}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 794}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 398}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 538}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 406}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>c9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 530}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>cartaAtras.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{99, 2}, {85, 128}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {85, 128}}</string>
+			<key>sourceSize</key>
+			<string>{85, 128}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>cartasTaco.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {93, 136}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {93, 136}}</string>
+			<key>sourceSize</key>
+			<string>{93, 136}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>instruccionesBtn.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 926}, {209, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {209, 42}}</string>
+			<key>sourceSize</key>
+			<string>{209, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+		<key>jugarBtn.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 972}, {117, 42}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {117, 42}}</string>
+			<key>sourceSize</key>
+			<string>{117, 42}</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>tint</key>
+			<string>{{255, 255}, {255, 255}}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{213, 1016}</string>
+		<key>textureFileName</key>
+		<string>Memorion_Cartas.png</string>
+	</dict>
+</dict>
+</plist>
